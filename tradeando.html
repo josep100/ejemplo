@@ -1,0 +1,369 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<title>Tradeando</title>
+		<style type="text/css">
+			#contenedor{
+				background-color: black;
+				text-align: center;
+				height: 150%;
+				overflow: hidden;
+			}
+
+			.columna{
+				width: 301px;
+				height: 865px;
+				border-style: solid;
+				border-color: white;
+				color: white;
+  				margin: 10px;
+  				border-radius: 11px;
+  				display: inline-block;
+  				vertical-align: top;
+  				border-width: 1px;
+			}
+
+			img{
+				width: 301px;
+				height: 180px;
+				border-top-left-radius: 8px;
+				border-top-right-radius: 8px;
+				transition-duration: .3s;
+				transition-property: transform;
+			}
+
+			h2{
+				font-family: "Poppins",sans-serif;
+				font-size: 25px;
+				font-weight: 600;
+			}
+
+			h4{
+				color: 4ECB66;
+				font-family: "Poppins",sans-serif;
+				font-size: 14px;
+				font-weight: 500;
+			}
+
+			h3{
+				font-family: "Poppins",sans-serif;
+				font-size: 32px;
+				font-weight: 500;
+			}
+
+			.academy{
+				margin-top: -15px;
+			}
+
+			a{
+				text-decoration: none;
+				font-size: 17px;
+				font-weight: 500;
+				text-transform: none;
+				fill: #FFF;
+				color: #FFF;
+				background-color: #4ECB6600;
+				border-style: solid;
+				border-width: 3px 3px 3px 3px;
+				border-color: #FFF;
+				border-radius: 50px 50px 50px 50px;
+				padding-right: 50px;
+				padding-left: 50px;
+				padding-top: 6px;
+				padding-bottom: 6px;
+			}
+			.reservar{
+				margin-bottom: 14px;
+				transition-duration: .3s;
+				transition-property: transform;
+			}
+			.plaza h4{
+				margin-top: 10px;
+				color: #606060;
+				font-family: "Poppins",Sans-serif;
+				font-size: 14px;
+				font-weight: 500;
+				font-style: italic;
+			}
+
+			ul{
+				padding-left: 12;
+				list-style: none;
+  				margin: 0;
+  				/*max-width: 200px;*/
+			}
+
+			li{
+				font-family: "Poppins",Sans-serif;
+				display: flex;
+  				justify-items: flex-start;
+  				align-items: flex-start;
+				font-size: 14px;
+				text-align: left;
+				margin-bottom: 10%;
+			}
+
+			li span i{
+				color: green;
+				display: block;
+				position: relative;
+				top: 3px;
+				width:10px;
+				min-width: 10px;
+				height: 10px;
+				background: green;
+				border-radius: 10px;
+				margin-right: 10px;
+			}
+
+			.lista{
+				margin: 19px 19px 19px 19px;
+			}
+
+			img:hover{ 	
+    			transform: scale(1.5);
+			}
+
+			.reservar:hover{
+				transform: scale(0.9);
+			}
+			
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".columna").hover(function(){
+	    			$(this).css("border-color", "#4ECB66");
+				});
+				$(".columna").mouseleave(function(){
+	    			$(this).css("border-color", "white");
+				});
+
+				$("a").hover(function(){
+	    			$(this).css("color", "black");
+	    			$(this).css("box-shadow", "0 5px 30px 0 rgba(97, 206, 113, 0.4)");
+	    			$(this).css("background-color", "#4CAF50");
+	    			$(this).css("border-color", "#4CAF50");
+				});
+
+				$("a").mouseleave(function(){
+	    			$(this).css("color", "#FFF");
+	    			$(this).css("background-color", "#000");
+	    			$(this).css("border-color", "#FFF");
+	    			$(this).css("padding", "6px 50px 6px 50px");
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<div id="contenedor">
+			<div class="columna">
+				<img src="SWING-TRADING.png">
+				<div>
+					<h2>SWING TRADING</h2>
+				</div>
+				<div class="academy">
+					<h4>ACADEMY</h4>
+				</div>
+				<div>
+					<h3>1.750&#8364;</h3>
+				</div>
+				<div class="reservar">
+					<a href="#">&#161;Reservar plaza!</a>
+				</div>
+				<div class="plaza">
+					<h4>3 plazas disponibles</h4>
+				</div>
+				<div class="lista">
+					<ul>
+						
+						<li>
+							<span>
+								<i></i>
+							</span>	
+							<span>
+								Acceso a la formación completa
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acompañamiento personalizado por nuestro equipo y resolución de dudas
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso a la formación sobre fiscalidad
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Certificado de finalización
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="columna">
+				<img src="TRADEANDO-ACADEMY.png">
+				<div>
+					<h2>DAY TRADING</h2>
+				</div>
+				<div class="academy">
+					<h4>ACADEMY</h4>
+				</div>
+				<div>
+					<h3>1.750&#8364;</h3>
+				</div>
+				<div class="reservar">
+					<a href="">&#161;Reservar plaza!</a>
+				</div>
+				<div class="plaza">
+					<h4>4 plazas disponibles</h4>
+				</div>
+				<div class="lista">
+					<ul>
+						
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso a la formación completa
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acompañamiento personalizado por nuestro equipo y resolución de dudas
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso al canal telegram donde los tutores publican todas sus compras y ventas en directo
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso a la formación sobre fiscalidad
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso a 4 tutorías en directo cada semana
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Certificado de finalización
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="columna">
+				<img src="TRADING-SWING-TRADING.png">
+				<div>
+					<h2>PACK PREMIUM</h2>
+				</div>
+				<div class="academy">
+					<h4>ACADEMY</h4>
+				</div>
+				<div>
+					<h3>2.950&#8364;</h3>
+				</div>
+				<div class="reservar">
+					<a href="">&#161;Reservar plaza!</a>
+				</div>
+				<div class="plaza">
+					<h4>1 plazas disponibles</h4>
+				</div>
+				<div class="lista">
+					<ul>
+						
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso a Tradeando day academy + Tradeando swing academy
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acompañamiento personalizado por nuestro equipo y resolución de dudas
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Una mentoría privada e individual a través de zoom
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso al canal telegram donde los tutores publican todas sus compras y ventas en directo 
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso a la formación sobre fiscalidad
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Acceso a 4 tutorías en directo cada semana
+							</span>
+						</li>
+						<li>
+							<span>
+								<i></i>
+							</span>
+							<span>
+								Certificado de finalización
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
